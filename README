@@ -1,0 +1,49 @@
+# TechZone - Página Web Responsiva con Bootstrap y CSS
+
+## Descripción
+
+Este proyecto consiste en la creación de una página web responsiva utilizando HTML, CSS y el framework Bootstrap.
+
+El propósito del proyecto es aplicar los conceptos aprendidos sobre estructura HTML, estilos CSS, selectores, modelo de caja, diseño responsivo y componentes de Bootstrap.
+
+La página fue diseñada para adaptarse correctamente a diferentes tamaños de pantalla, incluyendo computadoras, tabletas y dispositivos móviles.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- Visual Studio Code
+- Git
+- GitHub
+
+## Características del proyecto
+
+La página incluye:
+
+- Barra de navegación responsiva.
+- Sección principal o hero.
+- Imagen responsiva.
+- Sección de servicios.
+- Tarjetas utilizando Bootstrap.
+- Botones con estilos de Bootstrap.
+- Sección informativa.
+- Formulario de contacto.
+- Footer.
+- Diseño adaptable a diferentes tamaños de pantalla.
+- Uso de selectores de elementos, clases e ID.
+- Aplicación del modelo de caja mediante margin, padding y border.
+- Media queries para mejorar la visualización en dispositivos móviles.
+
+## Estructura del proyecto
+
+```text
+pagina-bootstrap/
+│
+├── index.html
+├── styles.css
+├── README.md
+│
+└── images/
+    └── hero.jpg
+Link: 
