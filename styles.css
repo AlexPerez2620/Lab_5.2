@@ -1,0 +1,119 @@
+/* Selector de elemento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+}
+
+
+/* Selector de elemento */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+
+/* Sección principal */
+.hero-section {
+    background-color: #f4f7fb;
+    padding: 80px 0;
+}
+
+
+/* Selector de clase */
+.hero-image {
+    max-height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Clase personalizada */
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+
+/* Modelo de caja aplicado a las tarjetas */
+.service-card {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Efecto al pasar el mouse */
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Selector por ID */
+#cajaDestacada {
+    background-color: #ffffff;
+    border-left: 5px solid #0d6efd;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Formulario */
+.contact-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+
+/* Selector descendiente */
+.contact-form label {
+    font-weight: bold;
+}
+
+
+/* Selector de clase Bootstrap personalizado */
+.btn-primary {
+    border-radius: 8px;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-image {
+        max-height: 300px;
+    }
+
+    #cajaDestacada {
+        margin-top: 30px;
+    }
+
+}
+
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+}
